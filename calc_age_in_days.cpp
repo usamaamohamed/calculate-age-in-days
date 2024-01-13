@@ -98,9 +98,7 @@ stDate ReadFullDate()
 } 
 int main() 
 { 
-    time_t t = time(0); 
-    // char *dt = ctime(&t);
-    // cout << "local time is " << dt << endl;  
+    time_t t = time(0);  
     // // get time now
     tm* now = localtime(&t);
 
